@@ -8,7 +8,8 @@ const port = 3000;
 const app = express();
 //view engine set to ejs
 app.set('view engine', 'ejs');
-const dbURI = 'mongodb+srv://abodyhamdan96:BAMx2GVaqr0rXCcZ@cluster0.9aust.mongodb.net/node-tuts?retryWrites=true&w=majority&appName=Cluster0';
+//mongoDB
+
 
 app.use(express.urlencoded({ extended: true }));
 
